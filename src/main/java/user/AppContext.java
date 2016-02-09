@@ -41,4 +41,5 @@ public class AppContext extends WebMvcConfigurerAdapter {
         return new MongoTemplate(new SimpleMongoDbFactory(c, "user"));
     }
 
+
 }
